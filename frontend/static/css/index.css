@@ -1,0 +1,40 @@
+html,body {
+    height: 100%;
+    margin : 0 ; 
+    padding : 0 ; 
+}
+
+
+
+#main {
+
+    width:  100%;
+    height: 100% ;
+    left: 0;
+    top: 0;
+    
+}
+
+#app {
+    width: 100%;
+    background-image: url("../images/img-home.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+.center{
+    
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: aliceblue;
+padding: 3px;
+}
+
+
+
+
